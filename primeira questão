@@ -1,0 +1,6 @@
+print("Bem vindo ao sistema de pagamento automatico do estabelecimento!")
+
+valor = float(input("Digite o valor do produto: "))
+quantidade = int(input("Digite a quantidade do produto: "))
+
+print(f"O valor final será de: {valor * quantidade:.2f}")
