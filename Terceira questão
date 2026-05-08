@@ -1,0 +1,25 @@
+print("Um aumento acontecerá conforme a tabela abaixo:")
+print("-"*47)
+print("""Cargo                          |   Aumento(%) |
+-----------------------------------------------
+Programador de Sistemas        |      30      |
+-----------------------------------------------
+Analista de Sistemas           |      20      |
+-----------------------------------------------
+Analista de Banco de Dados     |      15      |
+-----------------------------------------------
+""")
+
+
+nome = input("Nome do Funcionario: ")
+cargo = input("Cargo do Funcionario: ")
+salario = float(input("Salário do Funcionario: "))
+
+if cargo == "Analista de Sistemas".lower():
+    print(f"Seu novo salário será de: {(salario * 0.20) + salario:.2f}R$")
+elif cargo == "Programador de Sistemas".lower():
+    print(f"Seu novo salário será de: {(salario * 0.30) + salario:.2f}R$")
+elif cargo == "Analista de Banco de Dados".lower():
+    print(f"Seu novo salário será de: {(salario * 0.15) + salario:.2f}R$")
+else:
+    print("Cargo inválido.")
