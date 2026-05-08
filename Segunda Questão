@@ -1,0 +1,7 @@
+loginusuario = input("Digite Seu nome de usuário: ")
+loginsenha = input("Digite sua senha: ")
+
+if (loginusuario == "pavio" and loginsenha == "54321") or (loginusuario == "procopio" and loginsenha == "12345"):
+    print("Bem vindo professor Fábio!")
+else:
+    print("Informações incorretas.")
